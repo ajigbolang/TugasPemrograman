@@ -1,0 +1,87 @@
+/* Styling untuk card */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk gambar profil */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Styling untuk konten */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-name {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.student-nis {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Styling untuk tabel nilai */
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.grades-table th, .grades-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.grades-table th {
+    background-color: #f1f1f1;
+}
+
+/* Styling untuk tombol */
+.detail-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detail-button:hover {
+    background-color: #45a049;
+}

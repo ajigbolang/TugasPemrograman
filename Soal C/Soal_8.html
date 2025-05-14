@@ -1,0 +1,69 @@
+<!-- /**
+* Soal 8: Tampilan Card Sederhana
+*
+* Tugas:
+* Buatlah sebuah tampilan card profil siswa
+* yang memiliki komponen-komponen berikut:
+*
+* 1. Sebuah tag image untuk Foto (placeholder)
+* 2. Sebuah tag heading untuk Nama (judul)
+* 3. Sebuah tag paragraph untuk NIS (subtext)
+* 4. Sebuah tag table untuk Daftar nilai (table)
+* 5. Sebuah tag button untuk Tombol "Lihat Detail"
+*
+* Ketentuan:
+* - Untuk UI Desain bebas.
+* - Gunakan CSS untuk styling (flex/grid).
+*
+* Output:
+* Serahkan kode html lengkap untuk card tersebut.
+*/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Profil Siswa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="image-container">
+            <!-- Placeholder Image -->
+            <img src="placeholder.img" alt="Foto Siswa" class="profile-image">
+        </div>
+        <div class="content">
+            <!-- Nama Siswa -->
+            <h2 class="student-name">Risyad</h2>
+            <!-- NIS -->
+            <p class="student-nis">NIS: 123456789</p>
+            <!-- Daftar Nilai -->
+            <table class="grades-table">
+                <thead>
+                    <tr>
+                        <th>Mapel</th>
+                        <th>Nilai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Matematika</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Bahasa Indonesia</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Fisika</td>
+                        <td>80</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Tombol Lihat Detail -->
+            <button class="detail-button">Lihat Detail</button>
+        </div>
+    </div>
+</body>
+</html>
